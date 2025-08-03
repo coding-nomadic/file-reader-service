@@ -40,3 +40,7 @@ bin/kafka-console-consumer.sh \
   --topic bitcoin-topic \
   --bootstrap-server localhost:9092 \
   --from-beginning
+
+## File consumption from Path
+- When triggers endpoint, camel route reads file from this path - /Users/tenzindawa/Documents/excel
+- converts to Java Object and publish messages to topic in batches
